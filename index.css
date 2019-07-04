@@ -1,0 +1,183 @@
+body {
+  background-color: #FAF8EF;
+}
+/* the heading css */
+.heading {
+  text-align: center;
+  color: #776E65;
+}
+
+.wrapper {
+  text-align: center;
+  margin-top: 1.6%;
+  margin-bottom: 1.6%;
+  position: relative;
+  left: 23px;
+}
+/* for the score and highscore */
+.score, .highScore {
+  display: inline-block;
+  background-color: #776E65;
+  font-weight: bold;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: #fff;
+  padding: 1%;
+  border-radius: 20%;
+}
+/* the for the newgame btn */
+.btn, .btn:hover, .btn:active {
+  background-color: #EDCF72;
+  border-color: #EDCF72;
+}
+
+.row {
+  text-align: center;
+  margin: 0 22.9%;
+  position: relative;
+  left: 5px;
+}
+/* the hidden paragraph which shows gameWon or gameOver later */
+.hidden {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+/* The text settings for gameOver or gameWon */
+.GameoverText {
+  font-size: 3.6rem;
+  font-weight: 900;
+  margin-top: 5%;
+  margin-left: 27%;
+  opacity: 1;
+  position: absolute;
+}
+
+.boxContainer {
+  padding: 0%;
+  margin: 0%;
+}
+/* this is the default gameBox */
+.gameBox {
+  height: 150px;
+  width: 150px;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #CDC1B4;
+  display: inline-block;
+}
+/* the gameBox belows are adjusted according to the numbers they show so gameBox2 is for if the box is 2 */
+.gameBox2 {
+  height: 150px;
+  width: 150px;
+  color: #776E65;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #EEE4DA;
+  display: inline-block;
+}
+
+.gameBox4 {
+  height: 150px;
+  width: 150px;
+  color: #776E65;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #EDE0C8;
+  display: inline-block;
+}
+
+.gameBox8 {
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #F2B179;
+  display: inline-block;
+}
+
+.gameBox16 {
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #F59563;
+  display: inline-block;
+}
+
+.gameBox32 {
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #F67C5F;
+  display: inline-block;
+}
+
+.gameBox64 {
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #F65E3B;
+  display: inline-block;
+}
+
+.gameBox128 {
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #EDCF72;
+  display: inline-block;
+}
+
+.gameBox256 {
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #EDCC61;
+  display: inline-block;
+}
+
+.gameBox512 {
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #ebc547;
+  display: inline-block;
+}
+
+.gameBox1024 {
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #e8bd30;
+  display: inline-block;
+}
+
+.gameBox2048 {
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  border: 10px solid #BBADA0;
+  border-radius: 20%;
+  background-color: #b89214;
+  display: inline-block;
+}
+
+.boxText {
+  margin-top: 30%;
+}
